@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPixel Designs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 10%;
+        }
+        .hero {
+            text-align: center;
+            background-color: #e9ecef;
+            padding: 50px 0;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .service img {
+            width: 100px;
+            height: 100px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BrightPixel Designs</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Creative Solutions for Your Brand</h2>
+        <p>We specialize in stunning graphics, from logos to business cards, to make your brand stand out. Let's bring your vision to life!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="logo-icon.png" alt="Logo Design">
+                <h3>Logo Design</h3>
+                <p>Custom logos tailored to your brand identity.</p>
+            </div>
+            <div class="service">
+                <img src="poster-icon.png" alt="Posters">
+                <h3>Posters & Flyers</h3>
+                <p>Eye-catching designs for events and promotions.</p>
+            </div>
+            <div class="service">
+                <img src="business-card-icon.png" alt="Business Cards">
+                <h3>Business Cards</h3>
+                <p>Professional and memorable business cards.</p>
+            </div>
+            <div class="service">
+                <img src="menu-icon.png" alt="Menus">
+                <h3>Menus & Price Lists</h3>
+                <p>Elegant designs for cafes, restaurants, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Showcase your best work here, such as logo designs, flyers, and menus you’ve created. Include images and testimonials from satisfied clients.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Let’s discuss your project! Reach out to us via:</p>
+        <ul>
+            <li>Email: contact@brightpixeldesigns.com</li>
+            <li>Phone: +123-456-7890</li>
+            <li>Social Media: Facebook, Instagram, Twitter</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BrightPixel Designs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
